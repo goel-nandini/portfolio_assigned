@@ -1,0 +1,90 @@
+/* Section Background */
+.contact-section {
+  background-color: #222;
+  padding: 60px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+/* Title Styling */
+.contact-title {
+  font-size: 28px;
+  margin-bottom: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Form Styling */
+.contact-form {
+  background-color: #111;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Inputs and Textarea */
+.contact-form input,
+.contact-form textarea {
+  background-color: transparent;
+  border: 2px solid #555;
+  border-radius: 8px;
+  padding: 12px;
+  color: white;
+  font-size: 14px;
+  outline: none;
+  transition: 0.3s ease;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #38bdf8; /* Blue border */
+
+  .contact-form input,
+.contact-form textarea {
+  background-color: transparent;
+  border: 2px solid #555;
+  border-radius: 8px;
+  padding: 12px;
+  color: white;
+  font-size: 14px;
+  outline: none;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #38bdf8; /* blue border */
+  box-shadow: 0 0 0 2px rgba(52, 189, 248, 0.3); /* soft outer glow */
+}
+
+}
+
+/* Shiny Blue Button */
+.contact-form button {
+  background: l}
+  .contact-form button {
+  background: linear-gradient(135deg, #3b82f6, #0ea5e9, #06b6d4);
+  background-size: 200% auto;
+  color: white;
+  padding: 12px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.4s ease;
+  box-shadow: 0 4px 15px rgba(14, 165, 233, 0.5); /* glow */
+}
+
+.contact-form button:hover {
+  background-position: right center;
+  box-shadow: 0 6px 20px rgba(14, 165, 233, 0.8);
+  transform: translateY(-2px);
+}
+

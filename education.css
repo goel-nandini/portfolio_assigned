@@ -1,0 +1,70 @@
+#education {
+  background-color: #222;
+  padding: 4rem 2rem;
+  color: white;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #00c3ff;
+  margin-bottom: 0.5rem;
+}
+
+.section-subtitle {
+  text-align: center;
+  font-size: 1.1rem;
+  margin-bottom: 3rem;
+  color: #aaa;
+}
+
+.timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  position: relative;
+  border-left: 2px solid #00c3ff;
+  margin-left: 2rem;
+}
+
+.timeline-card {
+  background: #1a1a1a;
+  border: 1px solid #00c3ff;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 0 15px #00c3ff44;
+  position: relative;
+  margin-left: 1rem;
+}
+
+.timeline-card::before {
+  content: "";
+  position: absolute;
+  left: -2.2rem;
+  top: 1.5rem;
+  width: 14px;
+  height: 14px;
+  background: #00c3ff;
+  border-radius: 50%;
+  box-shadow: 0 0 10px #00c3ff;
+}
+
+.timeline-card h3 {
+  margin: 0;
+  color: #00c3ff;
+  font-size: 1.2rem;
+}
+
+.timeline-card .degree,
+.timeline-card .duration,
+.timeline-card .grade {
+  font-weight: bold;
+  color: #ccc;
+  margin-top: 0.3rem;
+}
+
+.timeline-card .description {
+  margin-top: 0.5rem;
+  line-height: 1.6;
+  color: #ddd;
+}
