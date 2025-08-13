@@ -1,23 +1,29 @@
 #education {
-  background-color: #222;
+  background-color: #0c0c0c;
   padding: 4rem 2rem;
   color: white;
 }
 
 .section-title {
   text-align: center;
-  font-size: 2.5rem;
-  color: #00c3ff;
+  font-size: 5px;
+  color: #cfc206;
   margin-bottom: 0.5rem;
 }
 
-.section-subtitle {
+.section-subtitle h2 {
   text-align: center;
-  font-size: 1.1rem;
+  font-size: 0.5rem;
   margin-bottom: 3rem;
   color: #aaa;
 }
-
+#education{
+  font-size: 15px;
+  color: gray;
+}
+#edu{
+  font-size: 50px;
+}
 .timeline {
   display: flex;
   flex-direction: column;
