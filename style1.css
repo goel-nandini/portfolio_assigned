@@ -19,7 +19,7 @@
     background-position: 100% 50%;
   }
 }
-
+z
 
 body {
   font-family: 'Segoe UI', sans-serif;
@@ -47,8 +47,9 @@ body {
   font-size: 1.5rem;
   font-family: "Dancing Script", cursive;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: weight;
   font-style: normal;
+
 }
 .navbar nav ul {
   display: flex;
